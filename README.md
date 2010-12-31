@@ -5,13 +5,11 @@ Super lightweight solution that lets you leave `console` statements in your JS w
 - Include the script in your project. 
 - Use `console` methods as usual.
 
-##Downloads:
-You have 2 options. This one covers you for all known console methods and is approximately 295 bytes:
+##Download:
+You have two options. 
 
-[ConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/ConsoleDummy.min.js)
-This one only covers `log`, `info`, `warn` and `error` making it even tinier at 144 bytes:
-
-[SlimConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/SlimConsoleDummy.min.js)
+- [ConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/ConsoleDummy.min.js) (295 bytes) — This one covers you for all known console methods.
+- [SlimConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/SlimConsoleDummy.min.js) (144 bytes) — This one only covers `log`, `info`, `warn` and `error`.
 
 ##What does it do?
 - Creates a window.console object if it doesn't exist
