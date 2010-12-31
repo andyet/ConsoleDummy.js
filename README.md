@@ -2,7 +2,8 @@
 Super lightweight solution that lets you leave `console` statements in your JS without consequence. It does nothing for console methods that already exists.
 
 ##How do I use it?
-Just include the script in your project. Use `console` methods as usual.
+- Include the script in your project. 
+- Use `console` methods as usual.
 
 ##Downloads:
 You have 2 options. This one covers you for all known console methods and is approximately 295 bytes:
