@@ -49,6 +49,9 @@ The full version supports:
 - `trace`
 - `warn`
 
+##Test Coverage?
+Yes.
+
 ##Supported browsers
 - IE6 and newer
 - All modern browsers
