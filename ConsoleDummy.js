@@ -1,31 +1,9 @@
 (function (con) {
     // the dummy function
-    var dummy = function () {},
-        // console methods that may exist
-        methods = [
-            'assert',
-            'count',
-            'debug',
-            'dir',
-            'dirxml',
-            'error',
-            'exception', // firebug only
-            'group',
-            'groupCollapsed',
-            'groupEnd',
-            'info',
-            'log',
-            'markTimeline',
-            'profile',
-            'profileEnd',
-            'time',
-            'timeEnd',
-            'trace',
-            'warn'
-        ],
-        i = methods.length;
-    while (i--) {
-        con[methods[i]] || (con[methods[i]] = dummy);
+    function dummy() {};
+    // console methods that may exist
+    for(var methods = "assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(','), func; func = methods.pop();) {
+        con[func] = con[func] || dummy;
     }
 }((window.console) || (window.console = {}))); 
 // we do this crazy little dance so that the `console` object

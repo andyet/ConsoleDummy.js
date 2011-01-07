@@ -1,16 +1,9 @@
 (function (con) {
     // the dummy function
-    var dummy = function () {},
-        // console methods that may exist
-        methods = [
-            'error',
-            'info',
-            'log',
-            'warn'
-        ],
-        i = methods.length;
-    while (i--) {
-        con[methods[i]] || (con[methods[i]] = dummy);
+    function dummy() {};
+    
+    for(var methods = ['error','info','log','warn'], func; func = methods.pop();) {
+        con[func] = con[func] || dummy;
     }
 }((window.console) || (window.console = {}))); 
 // we do this crazy little dance so that the `console` object
