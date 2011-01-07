@@ -72,3 +72,6 @@ If the style looks a bit funky, it's because I'm trying to write it so the compi
 If you have any suggestion for shortening it — please let me know. 
 
 If you have questions or if like this little solution let me know on twitter: [@HenrikJoreteg](http://twitter.com/HenrikJoreteg).
+
+##Contributors
+- Fabian Neumann, a.k.a. [hellp](https://github.com/hellp) had some great minification suggestions. Thanks!
