@@ -5,11 +5,12 @@ Super lightweight solution that lets you leave `console` statements in your JS w
 - Include the script in your project. 
 - Use `console` methods as usual.
 
-##Download:
-You have two options. 
+##Downloads:
+You have three options (depending on which methods you use):
 
-- [ConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/ConsoleDummy.min.js) (257 bytes) — This one covers you for all known console methods.
-- [SlimConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/SlimConsoleDummy.min.js) (133 bytes) — This one only covers `log`, `info`, `warn` and `error`.
+- [ConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/ConsoleDummy.min.js) (255 bytes) — This one covers you for all known console methods.
+- [SlimConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/SlimConsoleDummy.min.js) (130 bytes) — This one only covers `log`, `info`, `warn` and `error`.
+- [DummyLog.js](https://github.com/andyet/ConsoleDummy.js/raw/master/DummyLog.js) (52 bytes) - Ok if you're a total freakin' byte scrooge and *ONLY* use `console.log`. This is the one you want.
 
 ##What does it do?
 - Creates a window.console object if it doesn't exist
@@ -20,6 +21,9 @@ You have two options.
 It only creates dummy methods for the non-existant ones.
 
 ##Which methods does it include?
+The super tiny one — "DummyLog" only supports:
+- `log`
+
 The slim version supports: 
 
 - `log`
@@ -27,7 +31,7 @@ The slim version supports:
 - `warn`
 - `error`
 
-The full version supports: 
+The full version supports:
 
 - `assert`
 - `count`
