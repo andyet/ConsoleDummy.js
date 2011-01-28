@@ -10,7 +10,7 @@ You have three options (depending on which methods you use):
 
 - [ConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/ConsoleDummy.min.js) (255 bytes) — This one covers you for all known console methods.
 - [SlimConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/SlimConsoleDummy.min.js) (130 bytes) — This one only covers `log`, `info`, `warn` and `error`.
-- [DummyLog.js](https://github.com/andyet/ConsoleDummy.js/raw/master/DummyLog.js) (52 bytes) - Ok if you're a total freakin' byte scrooge and *ONLY* use `console.log`. This is the one you want.
+- [DummyLog.js](https://github.com/andyet/ConsoleDummy.js/raw/master/DummyLog.js) (45 bytes) - Ok if you're a total freakin' byte scrooge and *ONLY* use `console.log`. This is the one you want.
 
 ##What does it do?
 - Creates a window.console object if it doesn't exist

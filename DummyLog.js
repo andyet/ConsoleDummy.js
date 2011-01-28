@@ -1,1 +1,1 @@
-window.console||(window.console={log:function(){}});
+window.console||(console={log:function(){}});
