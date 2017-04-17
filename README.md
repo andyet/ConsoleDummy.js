@@ -1,26 +1,26 @@
-#ConsoleDummy.js
+# ConsoleDummy.js
 Super lightweight solution that lets you leave `console` statements in your JS without consequence. It does nothing for console methods that already exists.
 
-##How do I use it?
+## How do I use it?
 - Include the script in your project. 
 - Use `console` methods as usual.
 
-##Downloads:
+## Downloads:
 You have three options (depending on which methods you use):
 
 - [ConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/ConsoleDummy.min.js) (255 bytes) — This one covers you for all known console methods.
 - [SlimConsoleDummy.min.js](https://github.com/andyet/ConsoleDummy.js/raw/master/SlimConsoleDummy.min.js) (130 bytes) — This one only covers `log`, `info`, `warn` and `error`.
 - [DummyLog.js](https://github.com/andyet/ConsoleDummy.js/raw/master/DummyLog.js) (45 bytes) - Ok if you're a total freakin' byte scrooge and *ONLY* use `console.log`. This is the one you want.
 
-##What does it do?
+## What does it do?
 - Creates a window.console object if it doesn't exist
 - Creates a no-op function for any non-existant console methods
 - Doesn't do anything for methods that already exist
 
-##What if my browser has a console?
+## What if my browser has a console?
 It only creates dummy methods for the non-existant ones.
 
-##Which methods does it include?
+## Which methods does it include?
 The super tiny one — "DummyLog" only supports:
 - `log`
 
@@ -53,14 +53,14 @@ The full version supports:
 - `trace`
 - `warn`
 
-##Test Coverage?
+## Test Coverage?
 Yes.
 
-##Supported browsers
+## Supported browsers
 - IE6 and newer
 - All modern browsers
 
-##Details
+## Details
 Argue all you want about whether or not leaving console statements in your code in production is a good idea or not. However, in my opinion, there *are* times when leaving simple debug statements in your production code actually makes sense. This thing is small enough that you could even leave it in your code just for the benefit of not breaking your whole site if you accidentally leave a `console.log` somewhere.
 
 I really liked Paul's Irish's window.log() because it's super lightweight. However, I want to use the other awesome methods console provides. Also, I wasn't excited about how Webkit displays log messages when you pass it the arguments object like he does in his approach. The native `console.log()` has a nicer looking output, especially when you're logging arrays because the `arguments` object/quasi-array is already displayed a bit like an array.
@@ -77,5 +77,5 @@ If you have any suggestion for shortening it — please let me know.
 
 If you have questions or if like this little solution let me know on twitter: [@HenrikJoreteg](http://twitter.com/HenrikJoreteg).
 
-##Contributors
+## Contributors
 - Fabian Neumann, a.k.a. [hellp](https://github.com/hellp) had some great minification suggestions. Thanks!
